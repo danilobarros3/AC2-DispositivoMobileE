@@ -1,0 +1,63 @@
+<!-- activity_aluno.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/txtRaAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RA"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/txtCepAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtLogradouroAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logradouro" />
+
+    <EditText
+        android:id="@+id/txtComplementoAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento" />
+
+    <EditText
+        android:id="@+id/txtBairroAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro" />
+
+    <EditText
+        android:id="@+id/txtCidadeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade" />
+
+    <EditText
+        android:id="@+id/txtUfAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+</LinearLayout>
